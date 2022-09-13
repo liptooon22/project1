@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>시안코딩</title>
+    <meta name="viewport" content="width=divice-width, user-scalable=no">
+    <!--
+    실습:
+    meta viewport 적용하시오.
+    1. 너비는 device 너비
+    2. 사용자 크기조정 안됨
+   -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/initial.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <div id="header-wrap">
+      <header id="header">
+        <div id="logo">
+          <h1>
+            <a href="index.html"><img src="./img/logo_img.png" alt="wisley"></a>
+          </h1>
+        </div>
+        <div class="inner">
+            <ul id="gnb">
+              <li><a href="#first">시작하기</a></li>
+              <li><a href="second">상품보기</a></li>
+              <li><a href="third">와이즐리 이야기</a></li>
+              <li><a href="fourth">고객센터</a></li>
+            </ul>
+            <ul id="login-menu">
+              <!-- <li><a href="#">로그인</a></li>
+              <li><a href="#">회원가입</a></li> -->
+              <li><a href="#">로그아웃</a></li>
+              <li><a href="#" class="cart">장바구니<span class="count">0</span></a></li>
+            </ul>
+          </div>
+      </header>
+    </div>
+    <div id="mainbanner">
+      <div class="inner">
+        <div class="maintext">
+          <p class="maintitle">
+            정직한 가격의<br>
+            <strong>프리미엄 면도용품 구독 서비스</strong>
+          </p>
+          <p class="subtitle">독일산 5중날8,900원, 첫 가입시 면도기를 드려요 </p>
+          <a href="#" class="common-btn">더 알아보기</a>
+        </div>
+      </div>
+    </div>
+    <div id="container">
+      <!-- 첫번째 섹션 -->
+      <section id="first">
+      <div class="inner">
+        <ul class="box-wrap">
+          <li>
+            <div class="items">
+              <h3>채용정보</h3>
+              <p>21세기 선두육상여객 운송<br>금호고속 인재모집</p>
+              <div class="img">
+                <img src="./img/section_icon01.png" alt="채용정보">
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="items">
+              <h3>공지사항</h3>
+              <p>21세기 선두육상여객 운송<br>금호고속 인재모집</p>
+              <div class="img">
+                <img src="./img/section_icon03.png" alt="채용정보">
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="items">
+              <h3>자료실</h3>
+              <p>21세기 선두육상여객 운송<br>금호고속 인재모집</p>
+              <div class="img">
+                <img src="./img/section_icon02.png" alt="채용정보">
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="items">
+              <h3>고객센터</h3>
+              <p>21세기 선두육상여객 운송<br>금호고속 인재모집</p>
+              <div class="img">
+                <img src="./img/section_icon04.png" alt="채용정보">
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      </section>
+      <!-- 두번때 섹션 -->
+      <section id="sectond">
+        <div class="inner">
+        <h2>다양한 기초자산</h2>
+        <div class="subtitle">KOSPI200지수,KOSDAQ150지수 및 55개의 구성종목에<br>투자할 수 있습니다.</div>
+        <div class="thumb-img-wrap">
+          <ul>
+            <!-- ul>li*12>img[src=./img/section_2/img0$.png][alt=img0$] -->
+            <li><img src="./img/section_2/img01.png" alt="img01"></li>
+            <li><img src="./img/section_2/img02.png" alt="img02"></li>
+            <li><img src="./img/section_2/img03.png" alt="img03"></li>
+            <li><img src="./img/section_2/img04.png" alt="img04"></li>
+            <li><img src="./img/section_2/img05.png" alt="img05"></li>
+            <li><img src="./img/section_2/img06.png" alt="img06"></li>
+          </ul>
+          <ul>
+            <li><img src="./img/section_2/img07.png" alt="img07"></li>
+            <li><img src="./img/section_2/img08.png" alt="img08"></li>
+            <li><img src="./img/section_2/img09.png" alt="img09"></li>
+            <li><img src="./img/section_2/img010.png" alt="img010"></li>
+            <li><img src="./img/section_2/img011.png" alt="img011"></li>
+            <li><img src="./img/section_2/img012.png" alt="img012"></li>
+          </ul>
+        </div>
+      </div>
+      </section>
+      <!-- 세번째 섹션 -->
+      <section id="third">
+        <div class="inner">
+          <div class="box img">
+          </div>
+          <div class="box">
+              <div class="text-box">
+                <h2>상승일 때도, 하락일 때도<br>모두 수익!</h2>
+                <div class="subtitle">상승을 예상할 때는 콜ELW,<br>하락을 예상할때는 풋ELW완 함께하세요.</div>
+                <a href="#" class="common-btn">ELW장점</a>
+              </div>
+            </div>
+        </div>
+      </section>
+      <!-- 네번째 섹션 -->
+      <section id="fourth">
+        <div class="inner">section4</div>
+      </section>
+      <!-- 다섯번째 섹션 -->
+      <section id="fifth">
+        <div class="inner">
+            <div class="box img">
+            </div>
+            <div class="box">
+              <div class="text-box">
+                <h3>부담없이 시작하세요<br>클럽 구독 시 면도기 무료</h3>
+                <a href="#" class="common-btn">시작하기</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      </div>
+    </div>
+  </body>
+</html>
